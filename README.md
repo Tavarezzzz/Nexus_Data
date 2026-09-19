@@ -246,21 +246,6 @@ Em vez de apresentar apenas dezenas de gráficos, o sistema organiza as informa�
 
 ---
 
-# 🛠️ Tecnologias
-
-| Tecnologia              | Utilização                             |
-| ----------------------- | -------------------------------------- |
-| **Python**              | Tratamento, análise e Machine Learning |
-| **Apache Airflow**      | Orquestração do pipeline               |
-| **DuckDB**              | Processamento analítico                |
-| **PostgreSQL / NeonDB** | Armazenamento dos dados estruturados   |
-| **Scikit-learn**        | Machine Learning                       |
-| **Docker**              | Containerização                        |
-| **Git / GitHub**        | Versionamento                          |
-| **Dashboard**           | Visualização e consumo dos dados       |
-
----
-
 # 🔐 Segurança e privacidade
 
 O projeto trabalha com um domínio publico que envolve informações potencialmente sensíveis.
@@ -393,6 +378,23 @@ O Nexus Data sempre esta em evolução. A arquitetura, os modelos, os indicadore
 * Decisões técnicas;
 * Guia de execução;
 * Documentação do dashboard.
+
+---
+
+---
+
+# 🛠️ Tecnologias
+
+| Tecnologia              | Utilização                             |
+| ----------------------- | -------------------------------------- |
+| **Python**              | Tratamento, análise e Machine Learning |
+| **Apache Airflow**      | Orquestração do pipeline               |
+| **DuckDB**              | Processamento analítico                |
+| **PostgreSQL / NeonDB** | Armazenamento dos dados estruturados   |
+| **Scikit-learn**        | Machine Learning                       |
+| **Docker**              | Containerização                        |
+| **Git / GitHub**        | Versionamento                          |
+| **Dashboard**           | Visualização e consumo dos dados       |
 
 ---
 
