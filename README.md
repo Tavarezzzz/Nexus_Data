@@ -1,7 +1,5 @@
 # 🧬 Nexus Data
 
-### Plataforma Inteligente para Equidade em Saúde
-
 <p align="center">
   <strong>Transformando dados do PEC/e-SUS APS em informação, inteligência e ação.</strong>
 </p>
@@ -14,9 +12,19 @@
   <img src="https://img.shields.io/badge/Machine_Learning-141414?style=for-the-badge&logo=scikitlearn&logoColor=white">
 </p>
 
+<p align="center">
+  <br>Protótipo de alta fidelidade desenvolvido no Figma — tela de Visão Geral.<br>
+<p>
+
+<img width="1567" height="877" alt="image" src="https://github.com/user-attachments/assets/3e30f804-e441-422b-a487-e8b9085c8119" />
+
+<p align="center">
+  <sub>https://www.figma.com/proto/Lw4SqkT6TWgUXmYU8tC9CL/Dashboard-Nexus-Data?node-id=1-54&p=f&t=Y5bqx7Alerz1UIVq-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A54</sub>
+</p>
+
 ---
 
-## 📌 Sobre o projeto
+# 📌 Sobre o projeto
 
 O **Nexus Data** é uma plataforma de Engenharia de Dados e Machine Learning desenvolvida para apoiar a análise dos marcadores de equidade em saúde registrados no **PEC/e-SUS APS**.
 
@@ -31,9 +39,9 @@ A plataforma organiza os dados, aplica regras institucionais, calcula indicadore
 Os dados relacionados às políticas de equidade já são registrados no PEC/e-SUS APS, incluindo:
 
 * Raça/cor
-* Deficiência
 * Orientação sexual
 * Identidade de gênero
+* Deficiência
 
 O desafio está em transformar esses registros em informações confiáveis e acionáveis.
 
@@ -48,6 +56,17 @@ O processo manual dificulta:
 
 ---
 
+## 🎯 Objetivos
+
+1. Automatizar a coleta das informações do PEC/e-SUS APS
+
+Automatizar a coleta das informações registradas no PEC/e-SUS APS, reduzindo a dependência de processos manuais e tornando a obtenção dos dados mais recorrente e estruturada.
+
+2. Integrar diferentes fontes e registros disponíveis
+
+Integrar diferentes fontes e registros disponíveis, reduzindo a necessidade de consolidação manual e criando uma base mais organizada para tratamento, análise e geração dos indicadores.
+
+---
 # 💡 A solução
 
 O Nexus Data combina **Engenharia de Dados + Machine Learning + Visualização** em uma única arquitetura.
@@ -76,24 +95,7 @@ Interface gerencial organizada em abas, evitando excesso de informações e dest
 
 # 🏗️ Arquitetura
 
-```mermaid
-flowchart LR
-
-    A["📥 Fonte de dados<br/>PEC / e-SUS APS"]
-    B["🥉 Bronze<br/>Dados brutos"]
-    C["🥈 Prata<br/>Tratamento e validação"]
-    D["🥇 Ouro<br/>Dados estruturados"]
-    E["🧠 Machine Learning<br/>Treinamento"]
-    F["🎯 Inferência<br/>Criticidade / Prioridade"]
-    G["📊 Dashboard<br/>Painel Gerencial"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-```
+<img width="1218" height="561" alt="image" src="https://github.com/user-attachments/assets/8758d8b8-c7e1-48ce-812d-5fa2dd175b60" />
 
 ---
 
@@ -174,8 +176,6 @@ A proposta é evitar uma grande quantidade de gráficos simultâneos e priorizar
 
 ---
 
----
-
 ### Objetivo
 
 A camada preditiva deve funcionar como **apoio à decisão**, e não como substituição da análise dos profissionais de saúde.
@@ -188,23 +188,11 @@ Os resultados devem ser interpretados dentro do contexto da gestão e das regras
 
 Um dos diferenciais da solução é levar a análise além da visão exclusivamente agregada.
 
-### Hierarquia analítica
+## Hierarquia analítica
 
-**Distrito Sanitário**
+<img width="365" height="527" alt="image" src="https://github.com/user-attachments/assets/5ddb96f8-6413-4762-98d9-58b0c4f22267" />
 
-↓
-
-**Unidade de Saúde**
-
-↓
-
-**Equipe de Saúde da Família**
-
-↓
-
-**Indicadores**
-
-Isso permite identificar diferenças entre equipes que poderiam ficar ocultas quando os dados são analisados apenas de forma agregada.
+Essa estrutura permite identificar diferenças entre equipes que poderiam ficar ocultas quando os dados são analisados apenas de forma agregada.
 
 ---
 
@@ -261,17 +249,7 @@ Por isso:
 
 ### Estrutura recomendada
 
-```text
-Dados reais
-    ↓
-Ambiente controlado
-    ↓
-Tratamento / anonimização
-    ↓
-Dados para desenvolvimento
-    ↓
-GitHub
-```
+<img width="365" height="552" alt="image" src="https://github.com/user-attachments/assets/79420185-272d-4c30-bf00-d828450f333b" />
 
 ---
 
@@ -283,37 +261,37 @@ GitHub
 <tr>
 
 <td align="center">
-  <img src="docs/team/nome-1.jpg" width="120px"><br>
-  <b>KFilipe Nava</b><br>
+  <img width="120" height="120" alt="image (4)" src="https://github.com/user-attachments/assets/91405b85-3789-42c4-9beb-ac0ce52c7e16" />
+  <b>Filipe Nava</b><br>
   <sub>Developer</sub>
 </td>
 
 <td align="center">
-  <img src="docs/team/nome-2.jpg" width="120px"><br>
+  <img width="130" height="130" alt="image (5)" src="https://github.com/user-attachments/assets/6234947c-f093-430a-96f8-0a5256881c38" />
   <b>Hallana Santana</b><br>
-  <sub>SProduct Owner</sub>
+  <sub>Product Owner</sub>
 </td>
 
 <td align="center">
-  <img src="docs/team/nome-3.jpg" width="120px"><br>
+  <img width="120" height="120" alt="image (2)" src="https://github.com/user-attachments/assets/acff5161-3bdd-4314-9189-d974d07ceefa" />
   <b>Kiara Souza</b><br>
   <sub>Developer</sub>
 </td>
 
 <td align="center">
-  <img src="docs/team/nome-4.jpg" width="120px"><br>
+  <img width="120" height="120" alt="image (3)" src="https://github.com/user-attachments/assets/a85468b6-0c87-46ae-ba8d-858dbc074ad2" />
   <b>Leandro Tavarez</b><br>
   <sub>Scrum Master</sub>
 </td>
 
 <td align="center">
-  <img src="docs/team/nome-5.jpg" width="120px"><br>
+  <img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/7d7925de-95cd-489c-970a-030ab75c07b1" />
   <b>Patricia Cedraz</b><br>
   <sub>Developer</sub>
 </td>
 
 <td align="center">
-  <img src="docs/team/nome-6.jpg" width="120px"><br>
+  <img width="120" height="120" alt="image (1)" src="https://github.com/user-attachments/assets/910b8f17-e6c8-4641-ab2b-1af3abd254c7" />
   <b>Paulo Bueno</b><br>
   <sub>Developer</sub>
 </td>
@@ -323,7 +301,7 @@ GitHub
 
 # 🎓 Projeto acadêmico
 
-**CESAR School — Projeto 3**
+## **CESAR School — Projeto 3**
 
 ### Tema
 
@@ -339,20 +317,13 @@ GitHub
 
 ---
 
-# 📌 Status
-
-🚧 **Em desenvolvimento**
-
-O Nexus Data sempre esta em evolução. A arquitetura, os modelos, os indicadores e a interface podem ser modificados conforme a validação técnica e as necessidades identificadas durante o projeto.
-
----
-
 # 🗺️ Roadmap
 
 * [x] Definição do problema
 * [x] Levantamento de requisitos
 * [x] Definição da arquitetura
 * [x] Ideação da solução
+* [x] Protótipo navegável
 * [ ] Pipeline de ingestão
 * [ ] Camada Bronze
 * [ ] Camada Prata
