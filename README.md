@@ -176,14 +176,6 @@ A proposta é evitar uma grande quantidade de gráficos simultâneos e priorizar
 
 ---
 
-### Objetivo
-
-A camada preditiva deve funcionar como **apoio à decisão**, e não como substituição da análise dos profissionais de saúde.
-
-Os resultados devem ser interpretados dentro do contexto da gestão e das regras institucionais definidas para o projeto.
-
----
-
 # 📍 Granularidade dos dados
 
 Um dos diferenciais da solução é levar a análise além da visão exclusivamente agregada.
